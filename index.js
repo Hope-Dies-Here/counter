@@ -3,12 +3,14 @@ let number = 0
 $(".number").innerText = number
 
 $("#dec").addEventListener("click", () => {
-  number--
+  if(number > -5) number--
+  else alert("but pro for more clicks") 
   $(".number").innerText = number
 })
 
 $("#inc").addEventListener("click", () => {
-    number++
+  if(number < 5) number++
+  else alert("but pro for more clicks") 
   $(".number").innerText = number
 })
 
