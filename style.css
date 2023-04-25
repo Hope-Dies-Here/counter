@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
 }
 body{
-  font-family: Monospace;
+  font-family: 'Roboto Mono', Monospace;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,6 +34,7 @@ body{
   background-color: white;
   border: darkgray 2px solid;
   outline: 0;
+  font-family: 'Roboto Mono', Monospace;
   transition: .1s;
 }
 bottom button:hover{
