@@ -4,13 +4,13 @@ $(".number").innerText = number
 
 $("#dec").addEventListener("click", () => {
   if(number > -5) number--
-  else alert("but pro for more clicks") 
+  else alert("buy pro for more clicks") 
   $(".number").innerText = number
 })
 
 $("#inc").addEventListener("click", () => {
   if(number < 5) number++
-  else alert("but pro for more clicks") 
+  else alert("buy pro for more clicks") 
   $(".number").innerText = number
 })
 
