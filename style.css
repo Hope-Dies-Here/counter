@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  padding: 10px 15px;
+}
+.counter h1{
+  font-size: 45px;
+}
+.number{
+  color: green;
+  font-size: 60px;
+  font-weight: 700;
+}
+.bottom button{
+  padding: 5px 10px;
+  margin: 0 1px;
+  border-radius: 6px;
+  background-color: white;
+  border: darkgray 2px solid;
+  outline: 0;
+  transition: .1s;
+}
+bottom button:hover{
+  cursor: pointer;
+}
+.bottom button:active{
+  border: 1px solid gray;
+}
