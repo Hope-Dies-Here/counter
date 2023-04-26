@@ -32,5 +32,3 @@ payBtn.addEventListener("click", function () {
     alert("What are u paying ?");
   }
 });
-
-console.log("counter will return!");
