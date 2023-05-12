@@ -39,7 +39,12 @@ refresh.addEventListener("click", () => {
   displayQuote.innerText = quotes[n].quote
   displayAuthor.innerText = quotes[n].author
 })
+// ------- Main code ends here ---------
 
+
+
+
+//junk 
 const mode = document.getElementById("mode")
 const html = document.getElementById("html")
 let theMode = "light"
