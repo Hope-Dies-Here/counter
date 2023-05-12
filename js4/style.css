@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+#quotes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh;
+  display: none;
+}
+
+#cont{
+  border: 1px solid ;
+  padding: 5px 10px;
+  border-radius: 3px;
+  width: 80%;
+  text-align: center;
+  height: 200px;
+  display: grid;
+  margin: auto;
+}
+
+#cont h3{
+  color: green;
+  margin-bottom: 0;
+}
+
+#theBS{
+  height: 80px;
+  margin-bottom: 0;
+  margin-top: 1;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#smartAss{
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 10;
+  display: block;
+}
+
+#btn{
+  width: 100px;
+  margin: auto;
+  padding: 5px 20px;
+  color: ;
+  background-color: none;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+#html{
+  transition: 1s;
+}
+
+body{
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-family: 'Quicksand', sans-serif;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+main{
+  width: min(70ch, 100% - 1rem);
+  margin-inline: auto;
+}
+
+em{
+  text-align: right;
+  padding-right: 25px;
+}

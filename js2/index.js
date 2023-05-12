@@ -15,7 +15,7 @@ showBtn.addEventListener("click", function() {
   ul.innerHTML = ''
   links.forEach(function(link, index) {
     const li = document.createElement("li")
-     li.innerText = link
-    ul.appendChild(li)
+    li.innerHTML = "<a href='#'>"+ link + "</a>"
+    ul.append(li)
   })
 })
