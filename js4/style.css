@@ -80,3 +80,57 @@ em{
   text-align: right;
   padding-right: 25px;
 }
+
+/*Phone Book */
+
+#container{
+  max-width: 80%;
+  
+  margin-inline: auto;
+}
+#save-cont{
+  color: steelblue;
+  display: grid;
+  width: 18rem;
+  margin-inline: auto;
+  border: 1px solid steelblue;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 1rem;
+}
+
+#save-cont h2{
+  text-align: center;
+}
+
+button{
+  width: fit-content;
+  background-color: steelblue;
+  border: none;
+  padding: .25rem .8rem;
+  color: white;
+  border-radius: 4px;
+}
+
+#display li{
+  border: 1px solid gray;
+  margin: .6em;
+  padding: .35rem 1rem;
+  border-radius: 2px;
+  color: steelblue;
+}
+ul{
+  list-style: none;
+  padding-left: .2em;
+}
+#display li sub{
+ 
+  margin-left: .3em
+}
+
+@media (min-width: 800px){
+  #ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+}
