@@ -69,7 +69,20 @@ const phone = document.querySelector("#phone");
 const saveBtn = document.querySelector("#save");
 const display = document.querySelector("#ul");
 
-let contacts = [];
+let contacts = [
+    {
+      name: "Poclie",
+      phone: 0909090809
+    },
+    {
+      name: "Himtan",
+      phone: 0969007007
+    },
+    {
+      name: "Greagor",
+      phone: 0961169119
+    }
+  ];
 /* contacts = localStorage.getItem("contacts")
  */
 saveBtn.addEventListener("click", () => {
@@ -79,9 +92,10 @@ saveBtn.addEventListener("click", () => {
       phone: phone.value,
     });
     alert("contact saved");
-    contacts.forEach((contact) => {
       name.value = "";
       phone.value = "";
+      display.innerHTML = ""
+    contacts.forEach((contact) => {
       let data = `${contact.name} <br> <sub> ${contact.phone}`;
       let li = document.createElement("li");
       li.innerHTML = data;
