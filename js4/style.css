@@ -118,6 +118,7 @@ button{
   padding: .35rem 1rem;
   border-radius: 2px;
   color: steelblue;
+  overflow-wrap: break-word;
 }
 ul{
   list-style: none;
