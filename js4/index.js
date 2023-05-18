@@ -53,10 +53,12 @@ mode.addEventListener("click", () => {
   if(theMode == "light"){
     html.style = "color-scheme: dark;"
     theMode = "dark"
+    mode.innerText = "Light Mode"
   }
   else {
     html.style = "color-scheme: light;"
     theMode = "light"
+    mode.innerText = "Dark Mode"
   }
     
 })
