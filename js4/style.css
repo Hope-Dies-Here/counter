@@ -172,3 +172,8 @@ ul{
   border-radius: 50%;
   font-size: .6em;
 }
+
+select {
+  border: 1px solid teal;
+  
+}
