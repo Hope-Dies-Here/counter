@@ -112,6 +112,10 @@ button{
   border-radius: 4px;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 #display li{
   border: 1px solid gray;
   margin: .6em;
@@ -129,9 +133,42 @@ ul{
   margin-left: .3em
 }
 
+#contactHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sortContainer{
+  /* border: 1px solid red; */
+}
+#sortMethod{
+  padding: .15em .25em;
+  border-radius: 2px;
+  color: white;
+  background-color: teal;
+}
+
 @media (min-width: 800px){
   #ul{
   display: grid;
   grid-template-columns: 50% 50%;
 }
+}
+
+#contactDetail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#call{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: steelblue;
+  padding: .8em;
+  border-radius: 50%;
+  font-size: .6em;
 }
